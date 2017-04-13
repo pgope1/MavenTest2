@@ -11,6 +11,7 @@ public class MavenTest1 {
 		
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.google.com");
+		System.out.println("Logging into the account");
 		//driver.quit();
 	}
 
