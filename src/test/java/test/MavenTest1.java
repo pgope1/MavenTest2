@@ -9,11 +9,12 @@ public class MavenTest1 {
 	@Test
 	public void Login(){
 		
-		System.out.println("Logging into the account");
-		WebDriver driver = new FirefoxDriver();
-		driver.get("http://www.google.com");
-		System.out.println("Logging into the account");
-	
+		
+ 		WebDriver driver = new FirefoxDriver();
+ 		driver.get(“https://www.societyleadership.org“);
+        	driver.findElement(By.xpath(“.//*[@id=‘edit-submit--2’]“)).click();
+		//System.out.println("Logging into the account");
+	System.out.println("Logging into the account");
 	}
 
 }
