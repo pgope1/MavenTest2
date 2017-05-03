@@ -11,10 +11,10 @@ public class MavenTest1 {
 		
 		
  		WebDriver driver = new FirefoxDriver();
- 		driver.get(“https://www.societyleadership.org“);
-        	driver.findElement(By.xpath(“.//*[@id=‘edit-submit--2’]“)).click();
+ 		driver.get(“https:www.societyleadership.org“);
+        	//driver.findElement(By.xpath(“.//*[@id=‘edit-submit--2’]“)).click();
 		//System.out.println("Logging into the account");
-	System.out.println("Logging into the account");
+		System.out.println("Logging into the account");
 	}
 
 }
